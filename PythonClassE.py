@@ -6,9 +6,8 @@ print("\n", end="")
 Taxa = int(input("Taxa: "))
 Tempo = int(input("Tempo: "))
 
+Prestacao = Valor + (Valor * Taxa / 100) * Tempo
 
 print("\n", end="")
-print("Distância Percorrida: " + str(Distancia))
-print("\n", end="")
-print("Litros de gasolina usados: " + str(Litros_Usados))
+print("Prestaçao a pagar: " + str(Prestacao))
 print("\n", end="")
