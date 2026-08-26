@@ -1,10 +1,9 @@
 
 print("\n", end="")
 
-Base = int(input("Base do Triângulo:"))
-Altura = int(input("Altura do Triângulo:"))
+Tempo = int(input("Segundos para ouvir o raio:"))
 
-Area = Base * Altura / 2
+Distancia = Tempo * 340
 
 print("\n", end="")
-print("Area do Triangulo: " + str(Area))
+print("Distância em Metros: " + str(Distancia))
