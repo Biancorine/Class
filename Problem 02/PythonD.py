@@ -8,7 +8,7 @@ Diametro= Perimetro / PI
 
 Raio = Diametro / 2
 
-Area = Raio ** PI
+Area = Raio * Raio * PI
 
 print("Area: " + str(Area))
 print("\n", end="")
