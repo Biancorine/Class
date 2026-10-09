@@ -22,7 +22,7 @@ def mostrar(media):
       print('\nAluno Reprovado')
    else:
       print('\nAluno Aprovado')
-    os.system('sleep 5')
+      os.system('sleep 5')
 
 def executar():
     nota1 = lerN1()
